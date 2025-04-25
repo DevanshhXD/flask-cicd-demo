@@ -37,5 +37,4 @@ jobs:
         script: |
           docker pull your-dockerhub-username/flask-cicd-demo:latest
           docker stop flask-cicd-demo || true
-          docker rm flask-cicd-demo || true
-          docker run -d --name flask-cicd-demo -p 5000:5000 your-dockerhub-username/flask-cicd-demo:latest
+          docker rm
